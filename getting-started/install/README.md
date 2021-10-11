@@ -1,4 +1,4 @@
-# Installation
+# Installing exo
 
 ## Quick Install
 
@@ -16,10 +16,3 @@ Put the binary `~/.exo/bin` and add that directory to your `PATH`.
 
 Shell completion support is available for bash, zsh, fish, and powershell. For installation instructions, run `exo completion --help`.
 
-## Uninstall
-
-```bash
-exo uninstall
-```
-
-Or follow the [manual uninstall steps](./uninstall.md).
