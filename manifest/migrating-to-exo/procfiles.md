@@ -14,7 +14,7 @@ and some whitespace.
 When a process is started, a unique `PORT` environment variable is supplied to
 each.
 
-Most procfile runners, exo included, have a single command to start all
+Most procfile runners, Exo included, have a single command to start all
 processes in the procfile, then tail their logs until interrupted:
 
 ```bash
