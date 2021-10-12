@@ -1,17 +1,8 @@
-# Quick Start
+# Exo Documentation
 
-### Install exo
+This repository contains the documentation source code for
+[Exo](https://github.com/deref/exo).
 
-The easiest way to install exo is to 
-
-```
-curl -sL https://exo.deref.io/install | bash
-```
-
-For alternative installation instructions, checkout blah....
-
-New Project
-
-
-
-Import Project
+A rendered version of these docs can be found at
+[https://docs.deref.io/exo/](https://docs.deref.io/exo/) and is powered by
+[GitBook](https://www.gitbook.com/).
