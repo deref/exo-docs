@@ -2,20 +2,21 @@
 
 ## Getting Started
 
-* [Quick Start](README.md)
-* [Installing exo](getting-started/install/README.md)
+* [Quick Start](getting-started/quick-start.md)
+* [Installing exo](getting-started/install/install.md)
   * [Uninstall](getting-started/install/uninstall.md)
 
 ## Using exo
 
 * [Guide](guide.md)
+  * [Concepts](concepts.md)
 
 ## Manifests
 
-* [What's in a manifest?](manifests/whats-in-a-manifest.md)
-* [Migrating to exo](manifests/migrating-to-exo/README.md)
-  * [Procfiles](manifests/migrating-to-exo/procfiles.md)
-  * [Compose](manifests/migrating-to-exo/compose.md)
+* [What's in a manifest?](manifest/whats-in-a-manifest.md)
+* [Migrating to exo](manifest/migrating/README.md)
+  * [Procfiles](manifest/migrating/procfiles.md)
+  * [Compose](manifest/migrating/compose.md)
 
 ## Resources
 

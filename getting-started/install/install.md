@@ -1,10 +1,4 @@
-# Installing exo
-
-## Quick Install
-
-```bash
-curl -sL https://exo.deref.io/install | bash
-```
+# Install
 
 ## Manual Installation
 
