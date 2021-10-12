@@ -13,10 +13,18 @@
 
 ## Manifests
 
-* [What's in a manifest?](manifest/whats-in-a-manifest.md)
+* [What's in a manifest?](manifest)
 * [Migrating to exo](manifest/migrating/README.md)
   * [Procfiles](manifest/migrating/procfiles.md)
   * [Compose](manifest/migrating/compose.md)
+
+## Components
+
+* [Overview](components/README.md)
+* [Process](components/process.md)
+* [Container](components/container.md)
+* [Volume](components/volume.md)
+* [Network](components/network.md)
 
 ## Resources
 
