@@ -6,12 +6,16 @@ A mapping of filesystem paths. Most projects have one workspace rooted at the sa
 
 If run in an unmapped directory, `exo gui` will offer to create a workspace for you. You can determine the current workspace with `exo workspace`, initialize a new one with `exo workspace init` or delete the current workspace with `exo workspace destroy`.
 
+## Manifests
+A file describing all of the components in a project. Presently, the supported manifest types are [procfiles](manifest/migrating/procfiles.md) and [compose files](manifest/migrating/compose.md). Use `exo apply ./path/to/manifest` whenever your manifest changes to make your workspace match. Components will be added or removed accordingly.
+
 ## Components
 
 An abstract definition of resources managed by exo. Presently, the only supported type of components are _processes_. Each component has a unique name within a workspace. Components are manipulated by applying manifests (see below), or with CRUD operations such as `exo ls`, `exo new`, and `exo rm`.
 
-## Manifests
-A file describing all of the components in a project. Presently, the supported manifest types are [procfiles](manifest/migrating/procfiles.md) and [compose files](manifest/migrating/compose.md). Use `exo apply ./path/to/manifest` whenever your manifest changes to make your workspace match. Components will be added or removed accordingly.
+## Resources
+
+TODO: Explain relationship between components and resources.
 
 ## Processes
 
