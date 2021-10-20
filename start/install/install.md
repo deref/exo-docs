@@ -1,5 +1,11 @@
 # Install
 
+## Standalone Installer
+
+```bash
+curl -sL https://exo.deref.io/install | bash
+```
+
 ## Manual Installation
 
 Grab the latest release from Github: [https://github.com/deref/exo/releases](https://github.com/deref/exo/releases)
