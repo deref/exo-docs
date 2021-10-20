@@ -15,8 +15,8 @@ destroy`.
 ## Manifests
 
 A file describing all of the components in a project. In addition to Exo's
-prefered [exo.hcl](/manifest/README.md) format, Exo also supports
-[procfiles](/manifest/migrating/procfiles.md) and [compose files](/manifest/migrating/compose.md).
+prefered [exo.hcl](../manifest/README.md) format, Exo also supports
+[procfiles](../manifest/migrate/procfiles.md) and [compose files](../manifest/migrate/compose.md).
 Use `exo apply ./path/to/manifest` whenever your manifest changes to make your
 workspace match. Components will be added or removed accordingly.
 

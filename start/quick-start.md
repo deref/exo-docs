@@ -24,8 +24,8 @@ automatically.
 
 ## Migrate to Exo
 
-Is your project is already using [Procfiles](/manifest/migrate/procfiles.md)
-or [Docker Compose](./manifest/migrate/compose.md)?
+Is your project is already using [Procfiles](../manifest/migrate/procfiles.md)
+or [Docker Compose](../manifest/migrate/compose.md)?
 
 If so, Exo is compatible with your existing configuration!
 
@@ -77,7 +77,7 @@ Note that this will not affect your code files on disk.
 
 ## Next Steps
 
-* Watch some [videos](/resources/videos.md)
-* Explore the [command line interface](/usage/cli.md)
-* Study exo's core [concepts](/usage/concepts.md)
-* Consult the [manifest reference](/manifest/README.md)
+* Watch some [videos](../resources/videos.md)
+* Explore the [command line interface](../usage/cli.md)
+* Study exo's core [concepts](../usage/concepts.md)
+* Consult the [manifest reference](../manifest/README.md)

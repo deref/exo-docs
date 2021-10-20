@@ -89,7 +89,7 @@ Each component has a unique name across the manifest.
 
 Components may come in the form of [`component` blocks](#component-block) or as
 macro-blocks named after the type of component. For details regarding specific
-component types and their respective syntax, see [Components](/components).
+component types and their respective syntax, see [Components](../components).
 
 | Block       | Description |
 | ----------- | ----------- |
@@ -103,7 +103,7 @@ Each `component` block specifies an individual component.
 
 Generally, it is less verbose to use type-specific component macros. For
 details regarding component types and their respective syntax, see
-[Components](/components).
+[Components](../components).
 
 | Label | Description |
 | --------- | ----------- |
