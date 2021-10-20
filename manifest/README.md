@@ -89,7 +89,7 @@ Each component has a unique name across the manifest.
 
 Components may come in the form of [`component` blocks](#component-block) or as
 macro-blocks named after the type of component. For details regarding specific
-component types and their respective syntax, see [Components](components).
+component types and their respective syntax, see [Components](/components).
 
 | Block       | Description |
 | ----------- | ----------- |
@@ -103,7 +103,7 @@ Each `component` block specifies an individual component.
 
 Generally, it is less verbose to use type-specific component macros. For
 details regarding component types and their respective syntax, see
-[Components](components).
+[Components](/components).
 
 | Label | Description |
 | --------- | ----------- |
@@ -113,7 +113,7 @@ details regarding component types and their respective syntax, see
 | --------- | ----------- | - |
 | `type` | Type name for the component to be constructed. | Required |
 | `spec` | String that defines the component. The format of a `spec` is dependent on the component's `type`. | Required if a [`spec` Block](#spec-block) is not provided. |
-| `depends_on` | An array of names of other components which this component depends upon. See [Component Dependencies](features/component-dependencies.md). | |
+| `depends_on` | An array of names of other components which this component depends upon. | |
 
 ## `spec` Block
 

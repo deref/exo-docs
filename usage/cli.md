@@ -36,4 +36,4 @@ exo exit
 ## More Resources
 
 * Builtin documentation: Run `exo help` or try passing `--help` to any subcommand.
-* [Videos](resources/videos.md)
+* [Videos](/resources/videos.md)
