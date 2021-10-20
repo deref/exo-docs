@@ -8,7 +8,7 @@ The easiest way to install exo is to run the following command:
 curl -sL https://exo.deref.io/install | bash
 ```
 
-For alternative installation methods, see [Installing exo](getting-started/install/install.md).
+For alternative installation methods, see [Installing exo](./install/install.md).
 
 ## Create a Workspace
 
@@ -24,8 +24,8 @@ automatically.
 
 ## Migrate to Exo
 
-Is your project is already using [Procfiles](manifest/migrating/procfiles.md)
-or [Docker Compose](./manifest/migrating/compose.md)?
+Is your project is already using [Procfiles](manifest/migrate/procfiles.md)
+or [Docker Compose](./manifest/migrate/compose.md)?
 
 If so, Exo is compatible with your existing configuration!
 
@@ -78,7 +78,6 @@ Note that this will not affect your code files on disk.
 ## Next Steps
 
 * Watch some [videos](resources/videos.md)
-* Explore the [command line interface](./cli.md)
-* Familiarize yourself with the [graphical user interface](./gui.md)
-* Consult the [manifest reference](./manifest)
-* Study exo's core [concepts](./concepts.md)
+* Explore the [command line interface](usage/cli.md)
+* Study exo's core [concepts](usage/concepts.md)
+* Consult the [manifest reference](manifest/README.md)
