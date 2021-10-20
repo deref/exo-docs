@@ -1,6 +1,6 @@
 # Table of contents
 
-* [root](root.md)
+* [About Exo](about.md)
 
 ## Getting Started
 

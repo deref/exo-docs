@@ -19,11 +19,10 @@ exo run Procfile
 
 ## Video
 
-testing
+Video demonstration of using Exo with a Rails application configured via a
+Procfile.
 
 {% embed url="https://youtu.be/WPaLj9R8rXE" %}
-
-[![Procfiles](img/video-placeholder.png)](https://youtu.be/WPaLj9R8rXE)
 
 ## References
 
