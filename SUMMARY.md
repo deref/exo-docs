@@ -10,12 +10,12 @@
 
 ## Using Exo
 
-* [Guide](using-exo/guide/README.md)
-  * [Concepts](concepts.md)
+* [Command Line Interface](usage/cli.md)
+* [Concepts](usage/concepts.md)
 
 ## Manifests
 
-* [What's in a manifest?](manifest/README.md)
+* [exo.hcl](manifest/README.md)
 * [Migrating to Exo](manifest/migrate/README.md)
   * [Procfiles](manifest/migrate/procfiles.md)
   * [Compose](manifest/migrate/compose.md)
