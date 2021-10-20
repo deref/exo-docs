@@ -22,7 +22,7 @@
 
 * [Overview](components/README.md)
 * [Unix](components/unix/README.md)
-  * [Process](components/process.md)
+  * [Process](components/unix/process.md)
 * [Docker](components/docker/README.md)
   * [Container](components/docker/container.md)
   * [Volume](components/docker/volume.md)
@@ -36,5 +36,5 @@
 ## Resources
 
 * [Videos](resources/videos.md)
-* [Git Repository](https://github.com/deref/exo)
+* [Github](https://github.com/deref/exo)
 * [Changelog](https://github.com/deref/exo/blob/main/CHANGELOG.md)

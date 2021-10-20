@@ -21,6 +21,10 @@ processes in the procfile, then tail their logs until interrupted:
 exo run Procfile
 ```
 
+## Video
+
+[![Procfiles](img/video-placeholder.png)](https://youtu.be/WPaLj9R8rXE)
+
 ## References
 
 - [The New Heroku](https://blog.heroku.com/the_new_heroku_1_process_model_procfile) - Introduction of Procfiles from 2011.
