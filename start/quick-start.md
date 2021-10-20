@@ -77,7 +77,7 @@ Note that this will not affect your code files on disk.
 
 ## Next Steps
 
-* Watch some [videos](./videos.md)
+* Watch some [videos](resources/videos.md)
 * Explore the [command line interface](./cli.md)
 * Familiarize yourself with the [graphical user interface](./gui.md)
 * Consult the [manifest reference](./manifest)

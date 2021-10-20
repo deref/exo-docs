@@ -1,5 +1,8 @@
 # Components
 
+Exo configures applications as a collection of components from a
+variety of providers.
+
 ## Unix
 
 - [Process](./process.md)

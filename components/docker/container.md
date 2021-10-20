@@ -7,6 +7,6 @@ A `container` block may contain attributes as specified by [compose-spec's `serv
 # Example
 
 ```hcl
-container "example-container" {
-  image = "example:latest"
+container "echo" {
+  image = "ealenn/echo-server"
 }

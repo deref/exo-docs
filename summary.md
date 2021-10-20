@@ -2,29 +2,36 @@
 
 ## Getting Started
 
-* [Quick Start](getting-started/quick-start.md)
-* [Installing exo](getting-started/install/install.md)
-  * [Uninstall](getting-started/install/uninstall.md)
+* [Quick Start](start/quick-start.md)
+* [Installing Exo](start/install/install.md)
+  * [Uninstall](start/install/uninstall.md)
 
-## Using exo
+## Using Exo
 
-* [Guide](guide.md)
-  * [Concepts](concepts.md)
+* [Guide](usage/guide.md)
+  * [Concepts](usage/concepts.md)
 
 ## Manifests
 
-* [What's in a manifest?](manifest)
-* [Migrating to exo](manifest/migrating/README.md)
-  * [Procfiles](manifest/migrating/procfiles.md)
-  * [Compose](manifest/migrating/compose.md)
+* [What's in a manifest?](manifest/README.md)
+* [Migrating to Exo](manifest/migrate/README.md)
+  * [Procfiles](manifest/migrate/procfiles.md)
+  * [Compose](manifest/migrate/compose.md)
 
 ## Components
 
 * [Overview](components/README.md)
-* [Process](components/process.md)
-* [Container](components/container.md)
-* [Volume](components/volume.md)
-* [Network](components/network.md)
+* [Unix](components/unix/README.md)
+  * [Process](components/process.md)
+* [Docker](components/docker/README.md)
+  * [Container](components/docker/container.md)
+  * [Volume](components/docker/volume.md)
+  * [Network](components/docker/network.md)
+
+## Support
+
+* [Github Issues](https://github.com/deref/exo/issues)
+* [Slack Community](https://join.slack.com/t/deref-community/shared_invite/zt-tu8arun7-qqpVcTe3IDHjpSG_TrSaBQ)
 
 ## Resources
 

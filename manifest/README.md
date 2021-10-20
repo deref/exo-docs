@@ -16,11 +16,11 @@ checked in to version control along with your project source.
 exo = "1.0"
 
 components {
-  
+
   process "web" {
     program = "./run-web-server"
   }
-  
+
   # ...
 
 }

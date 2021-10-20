@@ -2,6 +2,8 @@
 
 ## Automated Uninstall
 
+Exo can uninstall itself:
+
 ```bash
 exo uninstall
 ```
