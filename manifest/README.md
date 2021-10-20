@@ -13,7 +13,7 @@ checked in to version control along with your project source.
 # Template `exo.hcl`
 
 ```hcl
-exo = "1.0"
+exo = "0.1"
 
 components {
 
