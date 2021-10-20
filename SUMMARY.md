@@ -1,5 +1,7 @@
 # Table of contents
 
+* [root](root.md)
+
 ## Getting Started
 
 * [Quick Start](start/quick-start.md)
@@ -8,8 +10,8 @@
 
 ## Using Exo
 
-* [Guide](usage/guide.md)
-  * [Concepts](usage/concepts.md)
+* [Guide](using-exo/guide/README.md)
+  * [Concepts](concepts.md)
 
 ## Manifests
 
@@ -31,7 +33,7 @@
 ## Support
 
 * [Github Issues](https://github.com/deref/exo/issues)
-* [Slack Community](https://join.slack.com/t/deref-community/shared_invite/zt-tu8arun7-qqpVcTe3IDHjpSG_TrSaBQ)
+* [Slack Community](https://join.slack.com/t/deref-community/shared\_invite/zt-tu8arun7-qqpVcTe3IDHjpSG\_TrSaBQ)
 
 ## Resources
 
