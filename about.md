@@ -2,7 +2,7 @@
 
 Exo is a process manager and log viewer for your development environment.
 
-![](.gitbook/assets/68747470733a2f2f65786f2e64657265662e696f2f65786f2d736861646f772d73637265656e73686f742e706e67.png)
+![](./img/screenshot.png)
 
 ## Features
 
@@ -15,4 +15,4 @@ Exo is a process manager and log viewer for your development environment.
 
 Ready to dive in?
 
-Check out the [quick start guide](getting-started/quick-start.md).
+Check out the [quick start guide](./start/quick-start.md).
