@@ -40,3 +40,7 @@
 * [Videos](./resources/videos.md)
 * [Github](https://github.com/deref/exo)
 * [Changelog](https://github.com/deref/exo/blob/main/CHANGELOG.md)
+* [Legal](./policy/README.md)
+  * [License](https://github.com/deref/exo/blob/main/LICENSE)
+  * [Terms of Service](https://www.deref.io/terms)
+  * [Privacy Privacy](https://www.deref.io/privacy)
