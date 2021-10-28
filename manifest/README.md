@@ -33,14 +33,14 @@ components {
 The top-level of an `exo.hcl` file forms the body of an implicit manifest block
 with the following attributes and sub-blocks.
 
-| Attribute | Description |          |
-| --------- | ----------- | -------- |
+| Attribute | Description                                                                    |          |
+| --------- | ------------------------------------------------------------------------------ | -------- |
 | `exo`     | Specifies a manifest format version constraint. It has the form `major.minor`. | Required |
 
-| Block       | Description |
-| ----------- | ----------- |
+| Block                               | Description                                        |
+| ----------------------------------- | -------------------------------------------------- |
 | [`environment`](#environment-block) | Supplies environment variables used by components. |
-| [`components`](#components-block)  | Defines components. |
+| [`components`](#components-block)   | Defines components.                                |
 
 ## `environment` Block
 
@@ -53,13 +53,12 @@ including defining secrets, variables are specified one per `variable` block.
 Later blocks shadow earlier blocks, which shadow the `environment` block-level
 attributes.
 
-| Attribute | Description |          |
-| --------- | ----------- | -------- |
+| Attribute             | Description                                     |     |
+| --------------------- | ----------------------------------------------- | --- |
 | `/[a-z_][a-z0-9_]*/i` | Individual environment variable key/value pair. |
 
-
-| Block       | Description |
-| ----------- | ----------- |
+| Block                         | Description                                      |
+| ----------------------------- | ------------------------------------------------ |
 | [`variable`](#variable-block) | Long form for specifying an individual variable. |
 
 ## `variable` Block
@@ -72,13 +71,13 @@ variable "VARIABLE_NAME" {
 }
 ```
 
-| Label | Description |
-| --------- | ----------- |
-| Name | Name of this variable. Must match `/[a-z_][a-z0-9_]*/i`. |
+| Label | Description                                              |
+| ----- | -------------------------------------------------------- |
+| Name  | Name of this variable. Must match `/[a-z_][a-z0-9_]*/i`. |
 
-| Attribute | Description |
-| --------- | ----------- |
-| `value` | String value to bind to this variable name. |
+| Attribute | Description                                 |
+| --------- | ------------------------------------------- |
+| `value`   | String value to bind to this variable name. |
 
 ## `components` Block
 
@@ -91,8 +90,8 @@ Components may come in the form of [`component` blocks](#component-block) or as
 macro-blocks named after the type of component. For details regarding specific
 component types and their respective syntax, see [Components](../components).
 
-| Block       | Description |
-| ----------- | ----------- |
+| Block                           | Description                                      |
+| ------------------------------- | ------------------------------------------------ |
 | [`component`](#component-block) | Long form for specifying an individual variable. |
 
 ## `component` Block
@@ -105,15 +104,15 @@ Generally, it is less verbose to use type-specific component macros. For
 details regarding component types and their respective syntax, see
 [Components](../components).
 
-| Label | Description |
-| --------- | ----------- |
-| Name | Name of this component. Must match `/[a-z_]([a-z0-9-]*[a-z0-9])/`. |
+| Label | Description                                                        |
+| ----- | ------------------------------------------------------------------ |
+| Name  | Name of this component. Must match `/[a-z_]([a-z0-9-]*[a-z0-9])/`. |
 
-| Attribute | Description |   |
-| --------- | ----------- | - |
-| `type` | Type name for the component to be constructed. | Required |
-| `spec` | String that defines the component. The format of a `spec` is dependent on the component's `type`. | Required if a [`spec` Block](#spec-block) is not provided. |
-| `depends_on` | An array of names of other components which this component depends upon. | |
+| Attribute    | Description                                                                                       |                                                            |
+| ------------ | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `type`       | Type name for the component to be constructed.                                                    | Required                                                   |
+| `spec`       | String that defines the component. The format of a `spec` is dependent on the component's `type`. | Required if a [`spec` Block](#spec-block) is not provided. |
+| `depends_on` | An array of names of other components which this component depends upon.                          |                                                            |
 
 ## `spec` Block
 
