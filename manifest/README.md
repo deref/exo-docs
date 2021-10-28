@@ -49,35 +49,34 @@ Placement: [top-level](#top-level)
 The `environment` block supplies environment variables for use by component
 definitions in the project. For simple key/value string pairs, variables can be
 specified as attributes in the `environment` block. For more complex cases,
-including defining secrets, variables are specified one per `variable` block.
-Later blocks shadow earlier blocks, which shadow the `environment` block-level
-attributes.
+including defining secrets, variables are specified by child blocks within the
+`environment` block. Later children blocks shadow earlier blocks, which shadow
+the `environment` block-level attributes.
 
 | Attribute             | Description                                     |     |
 | --------------------- | ----------------------------------------------- | --- |
 | `/[a-z_][a-z0-9_]*/i` | Individual environment variable key/value pair. |
 
-| Block                         | Description                                      |
-| ----------------------------- | ------------------------------------------------ |
-| [`variable`](#variable-block) | Long form for specifying an individual variable. |
+| Block                       | Description                                                   |
+| --------------------------- | ------------------------------------------------------------- |
+| [`secrets`](#secrets-block) | Specifies a secrets value to be merged in to the environment. |
 
-## `variable` Block
+## `secrets` Block
 
 Placement: [`environment`](#environment-block)
 
 ```hcl
-variable "VARIABLE_NAME" {
-  value = "some string"
+secrets {
+  source = "https://example.com/secrets/vault"
 }
 ```
 
-| Label | Description                                              |
-| ----- | -------------------------------------------------------- |
-| Name  | Name of this variable. Must match `/[a-z_][a-z0-9_]*/i`. |
+| Attribute | Description               |
+| --------- | ------------------------- |
+| `source`  | URL of the secrets vault. |
 
-| Attribute | Description                                 |
-| --------- | ------------------------------------------- |
-| `value`   | String value to bind to this variable name. |
+Visit [https://secrets.deref.io/](https://secrets.deref.io/) to create a
+secrets vault.
 
 ## `components` Block
 
@@ -90,9 +89,10 @@ Components may come in the form of [`component` blocks](#component-block) or as
 macro-blocks named after the type of component. For details regarding specific
 component types and their respective syntax, see [Components](../components).
 
-| Block                           | Description                                      |
-| ------------------------------- | ------------------------------------------------ |
-| [`component`](#component-block) | Long form for specifying an individual variable. |
+| Block                           | Description                         |
+| ------------------------------- | ----------------------------------- |
+| [`component`](#component-block) | Long form for defining a component. |
+| `/[a-z][a-z0-9_]*/`             | Component definiton macro.          |
 
 ## `component` Block
 
