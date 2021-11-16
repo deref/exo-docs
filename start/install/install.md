@@ -16,7 +16,7 @@ curl -sL https://exo.deref.io/install | bash
 brew install deref/tap/exo
 ```
 
-See [https://github.com/deref/homebrew-tap](Deref's Homebrew Tap) for the
+See [Deref's Homebrew Tap](https://github.com/deref/homebrew-tap) for the
 package source.
 
 ### Linux
