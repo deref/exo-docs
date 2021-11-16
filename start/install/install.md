@@ -16,6 +16,14 @@ curl -sL https://exo.deref.io/install | bash
 brew install deref/tap/exo
 ```
 
+See [https://github.com/deref/homebrew-tap](Deref's Homebrew Tap) for the
+package source.
+
+### Linux
+
+Linux packages are available in `.apk`, `.deb`, and `.rpm` formats:
+[Latest Release Artifacts](https://github.com/deref/exo/releases/latest)
+
 ## Manual Installation
 
 Grab the latest release from Github: [https://github.com/deref/exo/releases](https://github.com/deref/exo/releases)
