@@ -2,8 +2,18 @@
 
 ## Standalone Installer
 
+To install to `~/.exo` with no other system changes, run:
+
 ```bash
 curl -sL https://exo.deref.io/install | bash
+```
+
+## Package Managers
+
+### MacOS via Homebrew
+
+```bash
+brew install deref/tap/exo
 ```
 
 ## Manual Installation
