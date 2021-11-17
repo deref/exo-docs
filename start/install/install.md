@@ -23,7 +23,7 @@ package source.
 Linux packages are available for Debian, Alpine, RPM and Homebrew, as well as in a binary format:
 [Latest Release Artifacts](https://github.com/deref/exo/releases/latest).
 
-#### Debian
+### Debian
 
 Download the latest `.deb` file from the release link above and run the
 following command:
@@ -35,7 +35,7 @@ sudo apt install ./exo_VERSION_linux_ARCH.deb
 Note: the file path must be specified either as an absolute path or with a
 leading `./`.
 
-#### Alpine
+### Alpine
 
 Download the latest `.apk` file from the release link above and run the
 following command:
@@ -44,7 +44,7 @@ following command:
 apk add --allow-untrusted ./exo_VERSION_linux_ARCH.apk
 ```
 
-#### RPM
+### RPM
 
 Download the latest `.rpm` file from the release link above and run the
 following command:
